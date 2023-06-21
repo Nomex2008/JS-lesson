@@ -1,0 +1,18 @@
+.ok {
+  font-size: 26px;
+  text-align: center;
+  color: gray;
+  padding: 10% 50%;
+  align-items: center;
+}
+.yellow{
+  color: yellow;
+  font-size: 36px;
+  text-decoration: line-through;
+  text-align: center;padding: 30px 0 30px 0;
+  border: 1px solid black;
+  background-color: aqua;
+}
+.red{
+  border: 1px solid red;
+}
