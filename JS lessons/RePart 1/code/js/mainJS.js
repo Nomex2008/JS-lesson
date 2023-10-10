@@ -134,3 +134,20 @@ function itIsArray(arr) {
         console.log('It is not Array!')
     }
 }
+
+console.log(info2)
+
+info2.forEach(showItem)
+
+function showItem(item) {
+    console.log(item)
+}
+
+let arrOne = ['Alex',' Boris',' Andriyovich',' 15 years']
+
+console.log(arrOne)
+
+let value = arrOne.reduceRight(function (previousValue, item, index, array) {
+    return item + previousValue
+}, '')
+console.log(value)
