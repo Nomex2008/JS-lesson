@@ -86,3 +86,51 @@ let num6 = num3.filter(function (item) {
     return item >= 1
 })
 console.log(num6)
+
+let info = ['Alex','Boris','Andriyovich']
+console.log(info.sort())
+
+let numbers = [11,8,22]
+
+console.log(numbers.sort())
+
+function numbersSort(a,b) {
+    console.log(`compare ${a} and ${b}`)
+
+    return a - b
+}
+console.log(numbers.sort(numbersSort))
+
+console.log(numbers.reverse())
+
+let arr = [11,22,33]
+
+let result = arr.map(function (item,index,array) {
+    return item
+})
+console.log(result)
+
+let line = 'Alex,Boris,15';
+
+info = line.split(',')
+console.log(info)
+
+let info2 = line.split(',', 2)
+console.log(info2)
+
+console.log(typeof info2)
+
+const obj = {}
+
+console.log(typeof obj)
+
+itIsArray(info2)
+itIsArray(obj)
+
+function itIsArray(arr) {
+    if (Array.isArray(arr)) {
+        console.log('It is Array!')
+    } else {
+        console.log('It is not Array!')
+    }
+}
