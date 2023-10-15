@@ -32,3 +32,29 @@ console.log(body.parentNode)
 console.log(body.children)
 
 console.log(body.firstElementChild)
+
+const titleMassif = document.body.querySelectorAll('h1.title')
+
+const text = document.body.querySelector('#text')
+
+console.log(titleMassif)
+
+console.log(titleMassif[0])
+
+console.log(text)
+
+let num = 0
+
+for (const item of bodyChild) {
+    console.log(`item ${num}`)
+    num++
+    console.log(item)
+}
+
+console.log(
+    body.querySelectorAll('.text')[0]
+)
+
+console.log(
+    document.getElementById('text')
+)
