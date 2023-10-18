@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    height: 5000px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    margin: 0 auto; 
+}
+
+.text {
+    color: aqua;
+    background-color: brown;
+    display: inline-block;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0 5px;
+
+    margin-top: 2500px;
+}
